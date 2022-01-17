@@ -53,6 +53,7 @@ h1 {
 }
 h2 {
    font-size: 30px;
+   vertical-align: top;
 }
 .links {
    float: right;
@@ -94,3 +95,4 @@ article, aside {
    text-decoration: none;
    color:rgb(136, 85, 136);
 }
+
