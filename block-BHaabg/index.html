@@ -1,15 +1,80 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Assignment 2</title>
+</head>
+<body id="top">
+    <header class="header">
+        <div class="container clearfix">
+            <a class="brand" href="#">
+                <img src="assets/media/logo.png" alt="logo">
+            </a>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Gallery</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article class="article">
+            <div class="container clearfix"> 
+                <div class="column article-left">
+                <h1 class="article-heading">Article Heading</h1>
+                <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis earum autem, natus sint quod optio soluta neque 
+                    blanditiis dolores perspiciatis, deleniti adipisci. 
+                    Aut provident modi ratione dignissimos officia voluptates cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis earum autem, natus sint quod optio soluta neque 
+                    blanditiis dolores perspiciatis, deleniti adipisci. 
+                    Aut provident modi ratione dignissimos officia voluptates cumque?
+                    Aut provident modi ratione dignissimos officia voluptates cumque?
+                    Aut provident modi ratione dignissimos officia voluptates cumque?
+                    Aut provident modi ratione dignissimos officia voluptates cumque?             
+                 </p>
+            </div>
+            <div class="column article-heading">
+                <img src="assets/media/pups.png" alt="Blog">
+            </div>
+        </div>
+        </article>
+        <!-- Gallery-->
+        <section class="gallery">
+            <div class="container clearfix">
+                <div class="column-1">
+                    <img src="assets/media/pup.png" alt="pups">
+                </div>
+                <div class="column-1">
+                    <img src="assets/media/sleep.png" alt="sleeping dog">
+                </div>
+                <div class="column-1">
+                    <img src="assets/media/dogs.png" alt="dogs">
+                </div>
+                <div class="column-1">
+                    <img src="assets/media/basket.png" alt="basket">
+                </div>
+                <div class="column-1">
+                    <img src="assets/media/play.png" alt="play">
+                </div>
+                <div class="column-1">
+                    <img src="assets/media/furry.png" alt="furry">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </nav>
+        </div>
+    </footer>
+    <a class="top-button" href="#top">top</a>
+</body>
+</html>
